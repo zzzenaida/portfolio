@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio de Zenaida Jordá — Estudiante de Periodismo especializada en radio, televisión y comunicación digital." />
+  <meta name="author" content="Zenaida Jordá" />
+  <title>Zenaida Jordá · Periodista</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════ NAVEGACIÓN ═══════════════════ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#inicio">ZP</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#experiencia">Experiencia</a></li>
+        <li><a href="#formacion">Formación</a></li>
+        <li><a href="#forma-de-trabajo">Método</a></li>
+        <li><a href="#trabajos">Trabajos</a></li>
+        <li><a href="https://zenaidaportfolio.my.canva.site/copia-de-mi-portfolio">Portfolio</a></li>
+        <li><a href="#contacto" class="nav-cta btn-hover-effect">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════ HERO ═══════════════════ -->
+  <header id="inicio" class="hero">
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-eyebrow">Periodista · Radio · Comunicación Digital</p>
+        <h1 class="hero-title">Zenaida <span class="accent">Jordá</span></h1>
+        <p class="hero-subtitle typewriter-text">
+          Estudiante de 4º de Periodismo en la USC con pasión por la comunicación digital, el marketing y los medios audiovisuales. Creativa, organizada y con ganas de seguir aprendiendo y aportando ideas innovadoras.
+        </p>
+        <div class="hero-actions">
+          <a href="#trabajos" class="btn btn-primary btn-hover-effect">Ver trabajos</a>
+          <a href="ZENAIDA JORDÁ.pdf" target="_blank" class="btn btn-outline btn-hover-effect">
+            <i class="fa-regular fa-file-pdf"></i> CV
+          </a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="IMG_8492.JPEG" alt="Foto de Zenaida Jordá" class="floating-img" />
+      </div>
+    </div>
+    <a href="#sobre-mi" class="scroll-hint" aria-label="Ir a la siguiente sección">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </header>
+
+  <!-- ═══════════════════ SOBRE MÍ ═══════════════════ -->
+  <section id="sobre-mi" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Quién soy</span>
+        <h2>Sobre mí</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            Me llamo Zenaida, tengo 21 años y estudio 4º de Periodismo en la Universidad de Santiago de Compostela. Mi formación me ha permitido descubrir mi pasión por la <strong>comunicación digital</strong>, el <strong>marketing</strong> y los <strong>medios audiovisuales</strong>, especialmente la radio y la televisión.
+          </p>
+          <p>
+            Me considero una persona bastante artística y creativa, con ganas de seguir aprendiendo y explorando nuevas formas de comunicación. Tengo alta capacidad de organización que me permite liderar proyectos tanto de forma autónoma como integrarme en equipos desarrollando un buen trabajo.
+          </p>
+          <div class="about-badges">
+            <span class="badge">Radio</span>
+            <span class="badge">Televisión</span>
+            <span class="badge">Comunicación digital</span>
+            <span class="badge">Marketing</span>
+            <span class="badge">Redes sociales</span>
+            <span class="badge">Creación de contenido</span>
+          </div>
+        </div>
+        <div class="about-stats">
+          <div class="stat-card">
+            <span class="stat-number">4º</span>
+            <span class="stat-label">Curso de Periodismo USC</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">USC</span>
+            <span class="stat-label">Universidad de Santiago</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ EXPERIENCIA ═══════════════════ -->
+  <section id="experiencia" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Trayectoria</span>
+        <h2>Experiencia laboral</h2>
+      </div>
+      <div class="experience-cards-grid">
+
+        <div class="exp-card btn-modal" data-target="modal-hosteleria" style="cursor: pointer;">
+          <div class="exp-card-icon"><i class="fa-solid fa-martini-glass-citrus"></i></div>
+          <h3>Hostelería</h3>
+          <span class="exp-card-click">Ver detalles <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+
+        <div class="exp-card btn-modal" data-target="modal-burger" style="cursor: pointer;">
+          <div class="exp-card-icon"><i class="fa-solid fa-burger"></i></div>
+          <h3>Comida rápida</h3>
+          <span class="exp-card-click">Ver detalles <i class="fa-solid fa-arrow-right"></i></span>
+        </div>
+
+      </div>
+    </div>
+
+  <!-- Modales de Experiencia -->
+  <div class="modal-overlay" id="modal-hosteleria">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Cerrar modal"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-content">
+        <span class="modal-date">Jul-Ago 2024 · 2025</span>
+        <h3 class="modal-title">Atención al cliente</h3>
+        <p class="modal-company">O Buraquiño (Restaurante-bar)</p>
+        <p class="modal-desc">Experiencia en atención al cliente, trabajo en barra y sala durante los periodos estivales.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-overlay" id="modal-burger">
+    <div class="modal-box">
+      <button class="modal-close" aria-label="Cerrar modal"><i class="fa-solid fa-xmark"></i></button>
+      <div class="modal-content">
+        <span class="modal-date">Jul-Sep 2023</span>
+        <h3 class="modal-title">Atención al público y equipo de cocina</h3>
+        <p class="modal-company">Burger King</p>
+        <p class="modal-desc">Estuve trabajando en Burger King durante los meses de julio, agosto y septiembre de 2023, realizando diversas tareas. Me encargué de la limpieza, la preparación de alimentos en cocina y la atención al público, asegurando un servicio rápido y eficiente.</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+  <!-- ═══════════════════ FORMACIÓN ═══════════════════ -->
+  <section id="formacion" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Estudios</span>
+        <h2>Formación académica</h2>
+      </div>
+      <div class="edu-grid">
+
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-book"></i></div>
+          <div class="edu-info">
+            <span class="edu-date">2020 – 2022</span>
+            <h3>Bachillerato de Letras</h3>
+            <p>IES da Terra Chá Xosé Trapero Pardo</p>
+          </div>
+        </div>
+
+        <div class="edu-card btn-modal" data-target="modal-grado" style="background-color: var(--pink, #ff0091); color: white; cursor: pointer;">
+          <div class="edu-icon" style="background-color: rgba(255, 255, 255, 0.2); color: white;"><i class="fa-solid fa-graduation-cap"></i></div>
+          <div class="edu-info">
+            <span class="edu-date" style="color: rgba(255, 255, 255, 0.8);">2022 – 2026</span>
+            <h3 style="color: white;">Grado en Periodismo</h3>
+            <p style="color: rgba(255, 255, 255, 0.9);">Universidad de Santiago de Compostela (cursando 4º curso)</p>
+            <p style="margin-top: 10px; font-weight: 600; font-size: 0.9rem; color: white;"><i class="fa-solid fa-hand-pointer"></i> Haz click para saber qué he aprendido</p>
+          </div>
+        </div>
+
+        <div class="edu-card">
+          <div class="edu-icon"><i class="fa-solid fa-language"></i></div>
+          <div class="edu-info">
+            <span class="edu-date">Idiomas</span>
+            <h3>Competencia lingüística</h3>
+            <div class="lang-bars">
+              <div class="lang-item">
+                <div class="lang-label"><span>Castellano / Gallego</span><span>Nativo</span></div>
+                <div class="lang-bar-bg"><div class="lang-bar-fill" style="width: 0;" data-width="100%"></div></div>
+              </div>
+              <div class="lang-item">
+                <div class="lang-label"><span>Inglés</span><span>Conversacional</span></div>
+                <div class="lang-bar-bg"><div class="lang-bar-fill" style="width: 0;" data-width="60%"></div></div>
+              </div>
+              <div class="lang-item">
+                <div class="lang-label"><span>Portugués</span><span>Conversacional</span></div>
+                <div class="lang-bar-bg"><div class="lang-bar-fill" style="width: 0;" data-width="50%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Modal Grado en Periodismo -->
+    <div class="modal-overlay" id="modal-grado">
+      <div class="modal-box">
+        <button class="modal-close" aria-label="Cerrar modal"><i class="fa-solid fa-xmark"></i></button>
+        <div class="modal-content">
+          <h3 class="modal-title">¿Qué he aprendido en el Grado?</h3>
+          
+          <div style="margin-top: 20px;">
+            <h4 style="color: var(--pink, #ff0091); margin-bottom: 5px;"><i class="fa-solid fa-microphone"></i> Formación en radio</h4>
+            <p class="modal-desc" style="margin-top: 0;">Programas de radio amateur, redacción de guiones y locución.</p>
+            
+            <h4 style="color: var(--pink, #ff0091); margin-top: 15px; margin-bottom: 5px;"><i class="fa-solid fa-video"></i> Formación en televisión</h4>
+            <p class="modal-desc" style="margin-top: 0;">Producción, guionización y locución de reportajes y directos.</p>
+            
+            <h4 style="color: var(--pink, #ff0091); margin-top: 15px; margin-bottom: 5px;"><i class="fa-solid fa-hashtag"></i> Comunicación y marketing digital</h4>
+            <p class="modal-desc" style="margin-top: 0;">Gestión de redes sociales y estrategias de comunicación.</p>
+            
+            <h4 style="color: var(--pink, #ff0091); margin-top: 15px; margin-bottom: 5px;"><i class="fa-solid fa-robot"></i> Formación en IA</h4>
+            <p class="modal-desc" style="margin-top: 0;">Uso de herramientas de Inteligencia Artificial aplicadas al periodismo y la creación de contenidos.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FORMA DE TRABAJO ═══════════════════ -->
+  <section id="forma-de-trabajo" class="section">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Metodología</span>
+        <h2>Forma de trabajar</h2>
+        <p class="section-subtitle">Mi metodología combina creatividad, organización y rigor periodístico para producir contenidos de calidad en proyectos individuales y en equipo.</p>
+      </div>
+      <div class="method-grid">
+
+        <div class="method-card">
+          <div class="method-number">01</div>
+          <div class="method-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          <h3>Creatividad e innovación</h3>
+          <p>Aporto ideas innovadoras y originales a cada proyecto, buscando nuevas formas de comunicar y conectar con la audiencia de manera artística y diferente.</p>
+        </div>
+
+        <div class="method-card">
+          <div class="method-number">02</div>
+          <div class="method-icon"><i class="fa-solid fa-list-check"></i></div>
+          <h3>Organización y planificación</h3>
+          <p>Alta capacidad de organización que me permite gestionar proyectos de forma eficiente, cumplir plazos y coordinar diferentes aspectos del trabajo simultáneamente.</p>
+        </div>
+
+        <div class="method-card">
+          <div class="method-number">03</div>
+          <div class="method-icon"><i class="fa-solid fa-people-group"></i></div>
+          <h3>Trabajo en equipo</h3>
+          <p>Me integro fácilmente en equipos multidisciplinares, colaborando de forma efectiva y manteniendo una comunicación fluida con todos los miembros.</p>
+        </div>
+
+        <div class="method-card">
+          <div class="method-number">04</div>
+          <div class="method-icon"><i class="fa-solid fa-seedling"></i></div>
+          <h3>Aprendizaje continuo</h3>
+          <p>Siempre con ganas de seguir aprendiendo y explorando nuevas herramientas, técnicas y formas de comunicación para seguir creciendo profesionalmente.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ TRABAJOS ═══════════════════ -->
+  <section id="trabajos" class="section bg-light">
+    <div class="container">
+      <div class="section-header">
+        <span class="tag">Proyectos</span>
+        <h2>Trabajos destacados</h2>
+        <p class="section-subtitle">Una selección de proyectos que muestran mi perfil como periodista especializada en datos y automatización.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <article class="project-card">
+          <div class="project-tag">Proyecto creativo</div>
+          <h3>Fanzine: "Todos los poemas sin título están dedicados a nosotros"</h3>
+          <p>Coautora de un fanzine en colaboración con la escritora Sheyla Garrido Agulla. Combina poemas y fotografías explorando el amor y el desamor como las dos caras de la misma moneda. Me encargué de las ilustraciones y fotografías. Proyecto originado en clase de fotografía.</p>
+          <div class="project-links">
+            <a href="https://zenaidaportfolio.my.canva.site/copia-de-mi-portfolio" class="project-link"><i class="fa-regular fa-file-pdf"></i> Para más información, mira mi portfolio</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-tag">Marketing digital</div>
+          <h3>ÑAM! — App para cafeterías universitarias</h3>
+          <p>Dirigí el proyecto de clase donde ideamos el plan de empresa de ñam!, una aplicación funcional para consultar menús de cafeterías universitarias con características de red social para quedar con amigos. Proyecto del que me siento especialmente orgullosa porque marcó mi orientación profesional.</p>
+          <div class="project-links">
+            <a href="https://zenaidaportfolio.my.canva.site/copia-de-mi-portfolio" class="project-link"><i class="fa-regular fa-file-pdf"></i> Para más información, mira mi portfolio</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ CONTACTO ═══════════════════ -->
+  <section id="contacto" class="section contact-section">
+    <div class="container">
+      <div class="section-header section-header--light">
+        <span class="tag tag--light">Hablemos</span>
+        <h2>Contacto</h2>
+        <p class="section-subtitle">Estoy disponible para colaboraciones, proyectos editoriales y oportunidades en medios de comunicación.</p>
+      </div>
+      <div class="contact-grid">
+
+        <div class="contact-info">
+          <a href="mailto:zenaidajorda@gmail.com" class="contact-item">
+            <i class="fa-solid fa-envelope"></i>
+            <span>zenaidajorda@gmail.com</span>
+          </a>
+          <a href="https://instagram.com/_zzenaida" target="_blank" class="contact-item">
+            <i class="fa-brands fa-instagram"></i>
+            <span>@_zzenaida</span>
+          </a>
+          <a href="https://www.linkedin.com/in/zenaida-pontes-6278752b8/" target="_blank" class="contact-item">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <span>LinkedIn</span>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm" action="https://formsubmit.co/zenaidajorda@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Nuevo mensaje desde portfolio web" />
+          <input type="hidden" name="_captcha" value="false" />
+          <div class="form-group">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="tu@empresa.com" required />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntame en qué puedo ayudarte..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Enviar mensaje</button>
+          <p class="form-note">* Formulario de contacto activo: los mensajes se envían a zenaidajorda@gmail.com.</p>
+        </form>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ FOOTER ═══════════════════ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Zenaida Jordá · Todos los derechos reservados</p>
+      <nav class="footer-nav">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#experiencia">Experiencia</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="https://zenaidaportfolio.my.canva.site/copia-de-mi-portfolio">Portfolio</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+
+  <!-- Cursor interactivo -->
+  <div class="cursor-dot"></div>
+  <div class="cursor-outline"></div>
+</body>
+</html>
